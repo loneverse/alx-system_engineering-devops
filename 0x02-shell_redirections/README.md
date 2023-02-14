@@ -75,36 +75,18 @@ In this project i learn and practiced Shell Input/Output Redirections and filter
   `/etc/passwd` that do not contain the pattern "bin".
 
 * [18-letteronly](./18-letteronly): Bash script that displays all lines of the file
-  `/etc/ssh/sshd_config` starting with a letter, including capital letters.
+  `/etc/ssh/sshd_config
 
 * [19-AZ](./19-AZ): Bash script that replaces all characters `A` and `c` from input
-  to `Z` and `e` respectively.
+  to `Z` and `e`
 
-* [20-hiago](./20-hiago): Bash script that removes all letters `c` and `C` from input.
-
+* [20-hiago](./20-hiago): Bash script that removes all letters `c` and `C
 * [21-reverse](./21-reverse): Bash script that reverses its input.
 
-* [22-users_and_homes](./22-users_and_homes): Bash script that displays all users and
-  their home directories, sorted by users, based on the `/etc/passwd` file.
-
+* [22-users_and_homes](./22-users_and_homes): Bash script that displays all user
 * [100-empty_casks](./100-empty_casks): Bash script that finds all empty files
-  and directories in the current directory and all sub-directories as follows:
-    * Only the names of the files and directories are displayed.
-    * Hidden files included.
-    * One file name per line.
-
+  and directories
 * [101-gifs](./101-gifs): Bash script that lists all the files with a `.gif` extension
-  in the current directory and all its sub-directories as follows:
-    * Hidden files included.
-    * Only regular files (not directories) listed.
-    * File names displayed without extensions.
-    * Files sorted by byte values, but case insensitive.
-    * One file name per line.
 
-* [102-acrostic](./102-acrostic): Bash script that decodes acrostics that use the first
-  letter of each line.
-
-* [103-the_biggest_fan](./103-the_biggest_fan): Bash script that parses web
-  server logs in TSV format as input and displays the 11 hosts or IP addresses
-  which did the most requests.
-  * Ordered by number of requests, with most active hosts or IP's at the top.
+* [102-acrostic](./102-acrost
+* [103-the_biggest_fan](./103-the_biggest_fan):
