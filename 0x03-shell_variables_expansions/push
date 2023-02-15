@@ -6,10 +6,10 @@ echo 'Commit message:'
 read commitMessage
 git commit -m "$commitMessage"
 
-# Push changes to GitHub with user-provided branch and credentials
+# Push changes to GitHub with user-provided branch and environment variable
 echo 'Enter the name of the branch:'
 read branch
-git push --set-upstream origin $branch -u $username:$password
+git push --set-upstream origin $branch -u yourusername:$GITHUB_PASSWORD
 
 # Wait for user input before exiting
 read
