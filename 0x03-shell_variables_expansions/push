@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Prompt user for GitHub username and password
-echo 'Enter your GitHub username:'
-read loneverse
-echo 'Enter your GitHub password:'
-read -s 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
-
 # Add changes and commit with user-provided message
 git add .
 echo 'Commit message:'
