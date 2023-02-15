@@ -4,7 +4,7 @@
 echo 'Enter your GitHub username:'
 read loneverse
 echo 'Enter your GitHub password:'
-read -s password
+read -s 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
 
 # Add changes and commit with user-provided message
 git add .
