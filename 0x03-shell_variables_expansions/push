@@ -2,7 +2,7 @@
 
 # Prompt user for GitHub username and password
 echo 'Enter your GitHub username:'
-read username
+read loneverse
 echo 'Enter your GitHub password:'
 read -s password
 
